@@ -1,0 +1,144 @@
+ERROR:root:An error occurred in bill_records: 'NoneType' object has no attribute 'replace'
+Traceback (most recent call last):
+  File "D:\Saifuddin\Projects\Wireman_track\Wireman_tracker\pages\bill_records.py", line 49, in bill_records
+    date_range = st.date_input("Date Range", value=(None, None))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Saifuddin\Projects\Wireman_track\Wireman_tracker\.venv\Lib\site-packages\streamlit\runtime\metrics_util.py", line 408, in wrapped_func
+    result = non_optional_func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Saifuddin\Projects\Wireman_track\Wireman_tracker\.venv\Lib\site-packages\streamlit\elements\widgets\time_widgets.py", line 664, in date_input
+    return self._date_input(
+           ^^^^^^^^^^^^^^^^^
+  File "D:\Saifuddin\Projects\Wireman_track\Wireman_tracker\.venv\Lib\site-packages\streamlit\elements\widgets\time_widgets.py", line 751, in _date_input
+    parsed_values = _DateInputValues.from_raw_values(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Saifuddin\Projects\Wireman_track\Wireman_tracker\.venv\Lib\site-packages\streamlit\elements\widgets\time_widgets.py", line 165, in from_raw_values
+    parsed_min = _parse_min_date(
+                 ^^^^^^^^^^^^^^^^
+  File "D:\Saifuddin\Projects\Wireman_track\Wireman_tracker\.venv\Lib\site-packages\streamlit\elements\widgets\time_widgets.py", line 119, in _parse_min_date
+    parsed_min_date = adjust_years(parsed_dates[0], years=-10)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Saifuddin\Projects\Wireman_track\Wireman_tracker\.venv\Lib\site-packages\streamlit\time_util.py", line 28, in adjust_years
+    return input_date.replace(year=input_date.year + years)
+           ^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'replace'
+ERROR:root:An error occurred in bill_records: 'NoneType' object has no attribute 'replace'
+Traceback (most recent call last):
+  File "D:\Saifuddin\Projects\Wireman_track\Wireman_tracker\pages\bill_records.py", line 49, in bill_records
+    date_range = st.date_input("Date Range", value=(None, None))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Saifuddin\Projects\Wireman_track\Wireman_tracker\.venv\Lib\site-packages\streamlit\runtime\metrics_util.py", line 408, in wrapped_func
+    result = non_optional_func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Saifuddin\Projects\Wireman_track\Wireman_tracker\.venv\Lib\site-packages\streamlit\elements\widgets\time_widgets.py", line 664, in date_input
+    return self._date_input(
+           ^^^^^^^^^^^^^^^^^
+  File "D:\Saifuddin\Projects\Wireman_track\Wireman_tracker\.venv\Lib\site-packages\streamlit\elements\widgets\time_widgets.py", line 751, in _date_input
+    parsed_values = _DateInputValues.from_raw_values(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Saifuddin\Projects\Wireman_track\Wireman_tracker\.venv\Lib\site-packages\streamlit\elements\widgets\time_widgets.py", line 165, in from_raw_values
+    parsed_min = _parse_min_date(
+                 ^^^^^^^^^^^^^^^^
+  File "D:\Saifuddin\Projects\Wireman_track\Wireman_tracker\.venv\Lib\site-packages\streamlit\elements\widgets\time_widgets.py", line 119, in _parse_min_date
+    parsed_min_date = adjust_years(parsed_dates[0], years=-10)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Saifuddin\Projects\Wireman_track\Wireman_tracker\.venv\Lib\site-packages\streamlit\time_util.py", line 28, in adjust_years
+    return input_date.replace(year=input_date.year + years)
+           ^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'replace'
+ERROR:root:An error occurred in bill_records: 'NoneType' object has no attribute 'replace'
+Traceback (most recent call last):
+  File "D:\Saifuddin\Projects\Wireman_track\Wireman_tracker\pages\bill_records.py", line 49, in bill_records
+    date_range = st.date_input("Date Range", value=(None, None))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Saifuddin\Projects\Wireman_track\Wireman_tracker\.venv\Lib\site-packages\streamlit\runtime\metrics_util.py", line 408, in wrapped_func
+    result = non_optional_func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Saifuddin\Projects\Wireman_track\Wireman_tracker\.venv\Lib\site-packages\streamlit\elements\widgets\time_widgets.py", line 664, in date_input
+    return self._date_input(
+           ^^^^^^^^^^^^^^^^^
+  File "D:\Saifuddin\Projects\Wireman_track\Wireman_tracker\.venv\Lib\site-packages\streamlit\elements\widgets\time_widgets.py", line 751, in _date_input
+    parsed_values = _DateInputValues.from_raw_values(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Saifuddin\Projects\Wireman_track\Wireman_tracker\.venv\Lib\site-packages\streamlit\elements\widgets\time_widgets.py", line 165, in from_raw_values
+    parsed_min = _parse_min_date(
+                 ^^^^^^^^^^^^^^^^
+  File "D:\Saifuddin\Projects\Wireman_track\Wireman_tracker\.venv\Lib\site-packages\streamlit\elements\widgets\time_widgets.py", line 119, in _parse_min_date
+    parsed_min_date = adjust_years(parsed_dates[0], years=-10)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Saifuddin\Projects\Wireman_track\Wireman_tracker\.venv\Lib\site-packages\streamlit\time_util.py", line 28, in adjust_years
+    return input_date.replace(year=input_date.year + years)
+           ^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'replace'
+ERROR:root:An error occurred in bill_records: 'NoneType' object has no attribute 'replace'
+Traceback (most recent call last):
+  File "D:\Saifuddin\Projects\Wireman_track\Wireman_tracker\pages\bill_records.py", line 57, in bill_records
+    date_range = st.date_input("Date Range", value=(None, None))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Saifuddin\Projects\Wireman_track\Wireman_tracker\.venv\Lib\site-packages\streamlit\runtime\metrics_util.py", line 408, in wrapped_func
+    result = non_optional_func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Saifuddin\Projects\Wireman_track\Wireman_tracker\.venv\Lib\site-packages\streamlit\elements\widgets\time_widgets.py", line 664, in date_input
+    return self._date_input(
+           ^^^^^^^^^^^^^^^^^
+  File "D:\Saifuddin\Projects\Wireman_track\Wireman_tracker\.venv\Lib\site-packages\streamlit\elements\widgets\time_widgets.py", line 751, in _date_input
+    parsed_values = _DateInputValues.from_raw_values(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Saifuddin\Projects\Wireman_track\Wireman_tracker\.venv\Lib\site-packages\streamlit\elements\widgets\time_widgets.py", line 165, in from_raw_values
+    parsed_min = _parse_min_date(
+                 ^^^^^^^^^^^^^^^^
+  File "D:\Saifuddin\Projects\Wireman_track\Wireman_tracker\.venv\Lib\site-packages\streamlit\elements\widgets\time_widgets.py", line 119, in _parse_min_date
+    parsed_min_date = adjust_years(parsed_dates[0], years=-10)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Saifuddin\Projects\Wireman_track\Wireman_tracker\.venv\Lib\site-packages\streamlit\time_util.py", line 28, in adjust_years
+    return input_date.replace(year=input_date.year + years)
+           ^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'replace'
+ERROR:root:An error occurred in bill_records: 'NoneType' object has no attribute 'replace'
+Traceback (most recent call last):
+  File "D:\Saifuddin\Projects\Wireman_track\Wireman_tracker\pages\bill_records.py", line 57, in bill_records
+    date_range = st.date_input("Date Range", value=(None, None))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Saifuddin\Projects\Wireman_track\Wireman_tracker\.venv\Lib\site-packages\streamlit\runtime\metrics_util.py", line 408, in wrapped_func
+    result = non_optional_func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Saifuddin\Projects\Wireman_track\Wireman_tracker\.venv\Lib\site-packages\streamlit\elements\widgets\time_widgets.py", line 664, in date_input
+    return self._date_input(
+           ^^^^^^^^^^^^^^^^^
+  File "D:\Saifuddin\Projects\Wireman_track\Wireman_tracker\.venv\Lib\site-packages\streamlit\elements\widgets\time_widgets.py", line 751, in _date_input
+    parsed_values = _DateInputValues.from_raw_values(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Saifuddin\Projects\Wireman_track\Wireman_tracker\.venv\Lib\site-packages\streamlit\elements\widgets\time_widgets.py", line 165, in from_raw_values
+    parsed_min = _parse_min_date(
+                 ^^^^^^^^^^^^^^^^
+  File "D:\Saifuddin\Projects\Wireman_track\Wireman_tracker\.venv\Lib\site-packages\streamlit\elements\widgets\time_widgets.py", line 119, in _parse_min_date
+    parsed_min_date = adjust_years(parsed_dates[0], years=-10)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Saifuddin\Projects\Wireman_track\Wireman_tracker\.venv\Lib\site-packages\streamlit\time_util.py", line 28, in adjust_years
+    return input_date.replace(year=input_date.year + years)
+           ^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'replace'
+ERROR:root:An error occurred in bill_records: 'NoneType' object has no attribute 'replace'
+Traceback (most recent call last):
+  File "D:\Saifuddin\Projects\Wireman_track\Wireman_tracker\pages\bill_records.py", line 57, in bill_records
+    date_range = st.date_input("Date Range", value=(None, None))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Saifuddin\Projects\Wireman_track\Wireman_tracker\.venv\Lib\site-packages\streamlit\runtime\metrics_util.py", line 408, in wrapped_func
+    result = non_optional_func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Saifuddin\Projects\Wireman_track\Wireman_tracker\.venv\Lib\site-packages\streamlit\elements\widgets\time_widgets.py", line 664, in date_input
+    return self._date_input(
+           ^^^^^^^^^^^^^^^^^
+  File "D:\Saifuddin\Projects\Wireman_track\Wireman_tracker\.venv\Lib\site-packages\streamlit\elements\widgets\time_widgets.py", line 751, in _date_input
+    parsed_values = _DateInputValues.from_raw_values(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Saifuddin\Projects\Wireman_track\Wireman_tracker\.venv\Lib\site-packages\streamlit\elements\widgets\time_widgets.py", line 165, in from_raw_values
+    parsed_min = _parse_min_date(
+                 ^^^^^^^^^^^^^^^^
+  File "D:\Saifuddin\Projects\Wireman_track\Wireman_tracker\.venv\Lib\site-packages\streamlit\elements\widgets\time_widgets.py", line 119, in _parse_min_date
+    parsed_min_date = adjust_years(parsed_dates[0], years=-10)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Saifuddin\Projects\Wireman_track\Wireman_tracker\.venv\Lib\site-packages\streamlit\time_util.py", line 28, in adjust_years
+    return input_date.replace(year=input_date.year + years)
+           ^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'replace'
